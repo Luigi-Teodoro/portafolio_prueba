@@ -5,3 +5,33 @@
     margin: 0;
     padding: 0;
 }
+
+html{
+    /*me permite dezlisar cuando clil en los links del menu*/
+    scroll-behavior: smooth;
+}
+
+/*MENU*/
+contenedor-header{
+    background: #1e1e1e;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+contenedor-header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+contenedor-header header .logo a{
+    font-family: sans-serif;
+    font-size: 36px;
+    color: #a23;
+}
